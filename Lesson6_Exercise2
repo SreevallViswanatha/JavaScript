@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Exercise 2
+    </title>
+  </head>
+
+  <body>
+    <script>
+      function toUpper(str) {
+        console.log(str.toUpperCase());
+      }
+
+      toUpper('Simon');
+    </script>
+  </body>
+</html>
