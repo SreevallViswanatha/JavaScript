@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Exercise 2
+    </title>
+  </head>
+
+  <body>
+    <div id="counter">
+      0
+    </div>
+
+    <button onclick="increase()">
+      Up
+    </button>
+    
+    <script>
+      let count = 0;
+
+      function increase() {
+        let element = document.getElementById('counter');
+        count = count + 1;
+        element.innerText = count;
+      }
+    </script>
+  </body>
+</html>
