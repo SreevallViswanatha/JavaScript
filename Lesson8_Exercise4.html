@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Exercise 4
+    </title>
+  </head>
+
+  <body>
+    <input type="text" id="enter-textbox">
+
+    <button onclick="createDiv()">
+      Click me
+    </button>
+
+    <script>
+      function createDiv() {
+        let textbox = document.getElementById('enter-textbox');
+        let value = textbox.value;
+        let element = document.createElement('div');
+        element.innerText = value;
+        document.body.appendChild(element);
+      }
+    </script>
+  </body>
+</html>
