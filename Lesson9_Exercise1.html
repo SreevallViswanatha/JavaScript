@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Exercise 1
+    </title>
+  </head>
+
+  <body>
+    <button onclick="addItems('Apple')">
+      Apple
+    </button>
+
+    <button onclick="addItems('Tomato')">
+      Tomato
+    </button>
+
+    <button onclick="addItems('Eggs')">
+      Eggs
+    </button>
+
+    <button onclick="clearCart()">
+      Clear
+    </button>
+
+    <div>
+      Shopping Cart:
+    </div>
+
+    <div id="cart">
+
+    </div>
+
+    <script>
+      const cart = document.getElementById('cart');
+
+      function addItems(food) {
+        const element = document.createElement('div');
+        element.innerText = food;
+        cart.appendChild(element);
+      }
+      
+      function clearCart() {
+        cart.innerHTML = '';
+      }
+    </script>
+  </body>
+</html>
