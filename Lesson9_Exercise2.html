@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Exercise 2
+    </title>
+  </head>
+
+  <body>
+    <input type="text" id="input">
+
+    <button onclick="convertCm()">
+      Convert to cm
+    </button>
+
+    <button onclick="convertInch()">
+      Convert to inch
+    </button>
+
+    <div id="result">
+
+    </div>
+
+    <script>
+      const textbox = document.getElementById('input');
+
+      function convertCm() {
+        const element = textbox.value;
+        let differentElement = +element;
+        differentElement = element * 2.54;
+        const resultingElement = document.createElement('div');
+        resultingElement.innerText = differentElement;
+        result.appendChild(resultingElement);
+      }
+
+      function convertInch() {
+        const element = textbox.value;
+        let differentElement = +element;
+        differentElement = element / 2.54;
+        const resultingElement = document.createElement('div');
+        resultingElement.innerText = differentElement;
+        result.appendChild(resultingElement);
+      }
+    </script>
+  </body>
+</html>
