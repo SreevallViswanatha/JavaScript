@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.div-style {
+  margin-bottom: 200px;
+  border-radius: 5px;
+}
+
+.input-answer,
+.checkanswers-button {
+  border-radius: 20px;
+}
+
+.time,
+.image {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: #f1f3f5;
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  border-top: 10px solid #087f5b;
+}
+
+.correct {
+  color: #087f5b;
+  font-weight: bold;
+  font-size: 75px;
+  margin-left: 200px;
+}
+
+.wrong {
+  color: #f03e3e;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 200px;
+}
+
+.image {
+  width: 1000px;
+  margin-left: 200px;
+  border-top: 8px solid #087f5b;
+  border-radius: 30px;
+}
+
+.correct-statement {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.checkanswers-button {
+  background-color: #495057;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 600px;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.checkanswers-button:hover {
+  background-color: #212529;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  color: #f6fa0e;
+}
+
+.time-icon {
+  width: 150px;
+  height: 150px;
+}
+
+.span {
+  font-size: 20px;
+}
+
+#setTimer {
+  margin-left: 700px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.time {
+  margin-left: 700px;
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-family: serif;
+  border-top: 4px solid #087f5b;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
+  text-align: center;
+  position: fixed;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  font-family: algerian;
+  text-align: center;
+  font-size: 50px;
+  color: #adb5bd;
+  margin-top: 20px;
+}
+
+.click {
+  color: #087f5b;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.input-answer {
+  margin-top: 100px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 1225px;
+  margin-top: -40px;
+  border: none;
+  padding-left: 25px;
+  padding-right: 0;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
